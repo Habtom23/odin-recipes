@@ -1,36 +1,29 @@
-
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-p {
-    font-size: 20px;
+    font-family: "Ubuntu Sans Mono", monospace;
+    box-sizing: border-box;
     text-align: center;
 }
 
-h1,
-h2 {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);   
-    font-weight: bold;
+body {
+    background-color: #003235;
+    color: white;
 }
 
 img {
     width: 600px;
     height: auto;
-    border: 1px solid navy;
+    border: 3px solid white;
     border-radius: 20px;
 }
 
 .recipes {
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: aliceblue;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
