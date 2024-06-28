@@ -9,17 +9,24 @@ body {
     color: white;
 }
 
-img {
-    width: 600px;
-    height: auto;
-    border: 3px solid white;
-    border-radius: 20px;
+.recipes-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.recipes {
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 30px;
+.recipe-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+img {
+    width: auto;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 20px;
 }
 
 a {
